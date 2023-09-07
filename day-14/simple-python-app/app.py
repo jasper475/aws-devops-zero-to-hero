@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return 'Hello, world! Changed Artifact 2'
+    return 'Hello, world! Artifact removed'
 
 if __name__ == '__main__':
     app.run()

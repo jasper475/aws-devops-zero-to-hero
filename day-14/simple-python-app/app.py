@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return 'Hello, world! Artifact removed new pipeline'
+    return 'Hello, world! added artifict in CodeBuild and enabled pipeline'
 
 if __name__ == '__main__':
     app.run()
